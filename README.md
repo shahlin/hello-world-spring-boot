@@ -1,12 +1,5 @@
 # Hello World Spring Boot API
 
-## Prerequisite
-1. The project `jar` must be built before the docker build.
-2. If the `target` folder doesn't exist, run the following command:
-   ```
-   $ mvn clean package
-   ```
-
 ## Setup
 1. Make sure Docker engine is running
 2. Build the docker image using the command:
@@ -21,8 +14,7 @@
 
 ## Changing API Version
 1. Open `pom.xml`
-2. Update the `version` element under `project`
-3. **NOTE**: If the version is changed, the `jar` file name must be updated with the correct version in the Dockerfile 
+2. Update the `version` element under `project` 
 
 ## API Endpoints
 1. Root - `GET` /
